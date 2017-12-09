@@ -1,0 +1,1974 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 },
+                 {
+                   "label": "GHECAUSES",
+                   "display": "Causes"
+                 }
+               ],
+    "fact": [
+              {
+                "dims": {
+                          "COUNTRY": "Afghanistan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "11 145"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Albania",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 842"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Algeria",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "11 424"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Andorra",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "22"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Angola",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "7 058"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Antigua and Barbuda",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "19"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Argentina",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "9 756"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Armenia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 750"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Australia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "93"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Austria",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 890"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Azerbaijan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 297"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bahamas",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "75"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bahrain",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "148"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bangladesh",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "37 449"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Barbados",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "47"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Belarus",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "9 450"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Belgium",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 343"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Belize",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "36"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Benin",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 606"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bhutan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "192"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bolivia (Plurinational State of)",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 521"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bosnia and Herzegovina",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 538"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Botswana",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "273"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Brazil",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "26 241"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Brunei Darussalam",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bulgaria",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "8 634"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Burkina Faso",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 623"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Burundi",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 001"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Côte d'Ivoire",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 970"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cabo Verde",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "156"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cambodia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 934"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cameroon",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "7 000"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Canada",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 886"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Central African Republic",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 215"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Chad",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 340"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Chile",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 822"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "China",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 032 833"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Colombia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 502"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Comoros",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "14"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Congo",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 244"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cook Islands",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Costa Rica",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "644"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Croatia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 842"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cuba",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 127"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cyprus",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "223"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Czechia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 110"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Democratic People's Republic of Korea",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "15 596"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Democratic Republic of the Congo",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "23 034"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Denmark",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 138"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Djibouti",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "212"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Dominica",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "15"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Dominican Republic",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 008"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ecuador",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 771"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Egypt",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "43 531"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "El Salvador",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 498"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Equatorial Guinea",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "228"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Eritrea",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 243"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Estonia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "319"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ethiopia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "13 257"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Fiji",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "208"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Finland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "327"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "France",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "10 954"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Gabon",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "385"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Gambia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "386"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Georgia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 741"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Germany",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "26 160"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ghana",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 728"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Greece",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 008"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Grenada",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "24"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guatemala",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 980"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 466"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea-Bissau",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "464"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guyana",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "230"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Haiti",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 022"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Honduras",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 575"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Hungary",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "8 147"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Iceland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "21"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "India",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "621 138"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Indonesia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "61 792"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Iran (Islamic Republic of)",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "26 267"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Iraq",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "10 085"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ireland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "681"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Israel",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 219"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Italy",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "21 057"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Jamaica",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "693"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Japan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "30 790"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Jordan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 483"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kazakhstan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "10 293"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kenya",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 102"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kiribati",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kuwait",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "487"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kyrgyzstan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 129"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lao People's Democratic Republic",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 857"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Latvia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 859"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lebanon",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 434"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lesotho",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "387"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "236"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Libya",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 054"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lithuania",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 216"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Luxembourg",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "106"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Madagascar",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 215"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Malawi",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 706"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Malaysia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 251"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Maldives",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "47"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mali",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 218"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Malta",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "129"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Marshall Islands",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mauritania",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "978"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mauritius",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "252"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mexico",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "16 798"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Micronesia (Federated States of)",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Monaco",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mongolia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 123"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Montenegro",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "382"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Morocco",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "8 134"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mozambique",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 343"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Myanmar",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "22 664"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Namibia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "306"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nauru",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nepal",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "9 943"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Netherlands",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 017"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "New Zealand",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "20"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nicaragua",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 247"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Niger",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 183"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nigeria",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "46 750"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Niue",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Norway",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "636"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Oman",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "477"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Pakistan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "59 241"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Palau",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Panama",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "425"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Papua New Guinea",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "519"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Paraguay",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 159"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Peru",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 239"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Philippines",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "28 696"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Poland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "26 589"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Portugal",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 769"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Qatar",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "179"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Republic of Korea",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "11 523"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Republic of Moldova",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 008"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Romania",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "14 497"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Russian Federation",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "140 851"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Rwanda",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 227"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saint Kitts and Nevis",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saint Lucia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "42"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saint Vincent and the Grenadines",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "23"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Samoa",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "San Marino",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sao Tome and Principe",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "24"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saudi Arabia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "8 119"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Senegal",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 005"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Serbia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 435"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Seychelles",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 783"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Singapore",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 094"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Slovakia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 465"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Slovenia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "732"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Solomon Islands",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Somalia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 144"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "South Africa",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "14 356"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "South Sudan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 632"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Spain",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 860"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sri Lanka",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "7 792"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sudan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "8 093"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Suriname",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "74"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Swaziland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "188"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sweden",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "40"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Switzerland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 482"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Syrian Arab Republic",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 994"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tajikistan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 615"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Thailand",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "22 375"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "The former Yugoslav republic of Macedonia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 366"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Timor-Leste",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "210"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Togo",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 454"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tonga",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Trinidad and Tobago",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "359"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tunisia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "4 631"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Turkey",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "32 668"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Turkmenistan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "3 667"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tuvalu",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Uganda",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "7 989"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ukraine",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "54 507"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United Arab Emirates",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "655"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United Kingdom of Great Britain and Northern Ireland",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "16 355"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United Republic of Tanzania",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "5 765"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United States of America",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "38 043"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Uruguay",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "713"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Uzbekistan",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "16 282"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Vanuatu",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "25"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Venezuela (Bolivarian Republic of)",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 113"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Viet Nam",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "27 340"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Yemen",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "6 667"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Zambia",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "2 411"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Zimbabwe",
+                          "GHECAUSES": "",
+                          "GHO": "Ambient air pollution attributable deaths",
+                          "YEAR": "2012",
+                          "SEX": ""
+                        },
+                "Value": "1 856"
+              }
+      ]
+}

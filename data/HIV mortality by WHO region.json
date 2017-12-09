@@ -1,0 +1,78 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 }
+               ],
+    "fact": [
+              {
+                "dims": {
+                          "REGION": "Africa",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "720 000 [590 000−890 000]"
+              },
+              {
+                "dims": {
+                          "REGION": "Americas",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "54 000 [44 000−65 000]"
+              },
+              {
+                "dims": {
+                          "REGION": "South-East Asia",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "130 000 [120 000−220 000]"
+              },
+              {
+                "dims": {
+                          "REGION": "Europe",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "49 000 [40 000−56 000]"
+              },
+              {
+                "dims": {
+                          "REGION": "Eastern Mediterranean",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "17 000 [14 000−24 000]"
+              },
+              {
+                "dims": {
+                          "REGION": "Western Pacific",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "39 000 [25 000−66 000]"
+              },
+              {
+                "dims": {
+                          "REGION": "Global",
+                          "GHO": "Number of deaths due to HIV/AIDS",
+                          "YEAR": "2016"
+                        },
+                "Value": "1 000 000 [830 000−1 200 000]"
+              }
+      ]
+}

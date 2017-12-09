@@ -1,0 +1,1490 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+    "fact": [
+              {
+                "dims": {
+                          "COUNTRY": "Afghanistan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Albania",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Algeria",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Angola",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "5.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Antigua and Barbuda",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Argentina",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Armenia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Australia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Austria",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Azerbaijan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bahamas",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bahrain",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bangladesh",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Barbados",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Belarus",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Belgium",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Belize",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Benin",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bhutan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bolivia (Plurinational State of)",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "4.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bosnia and Herzegovina",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Botswana",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Brazil",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Brunei Darussalam",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Bulgaria",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Burkina Faso",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Burundi",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "5.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Côte d'Ivoire",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "4.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cabo Verde",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cambodia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cameroon",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Canada",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Central African Republic",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "4.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Chad",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "5.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Chile",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "China",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Colombia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Comoros",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Congo",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Costa Rica",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Croatia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cuba",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Cyprus",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Czechia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Democratic People's Republic of Korea",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Democratic Republic of the Congo",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Denmark",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Djibouti",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Dominican Republic",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ecuador",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Egypt",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "El Salvador",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Equatorial Guinea",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Eritrea",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Estonia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ethiopia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Fiji",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Finland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "France",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Gabon",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Gambia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Georgia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Germany",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ghana",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Greece",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Grenada",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guatemala",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea-Bissau",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guyana",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Haiti",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Honduras",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Hungary",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Iceland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "India",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Indonesia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Iran (Islamic Republic of)",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Iraq",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ireland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Israel",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Italy",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Jamaica",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Japan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Jordan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kazakhstan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kenya",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kiribati",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kuwait",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Kyrgyzstan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lao People's Democratic Republic",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Latvia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lebanon",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lesotho",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Libya",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Lithuania",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Luxembourg",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Madagascar",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Malawi",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Malaysia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Maldives",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mali",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Malta",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mauritania",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mauritius",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mexico",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Micronesia (Federated States of)",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mongolia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Montenegro",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Morocco",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Mozambique",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Myanmar",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Namibia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nepal",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Netherlands",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "New Zealand",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nicaragua",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Niger",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Nigeria",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Norway",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Oman",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Pakistan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Panama",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Papua New Guinea",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Paraguay",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Peru",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Philippines",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Poland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Portugal",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Qatar",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Republic of Korea",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Republic of Moldova",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Romania",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Russian Federation",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Rwanda",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saint Lucia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saint Vincent and the Grenadines",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Samoa",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sao Tome and Principe",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Saudi Arabia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Senegal",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Serbia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Seychelles",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "4.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Singapore",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Slovakia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Slovenia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Solomon Islands",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Somalia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "South Africa",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "South Sudan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Spain",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sri Lanka",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sudan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "4.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Suriname",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Swaziland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sweden",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Switzerland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Syrian Arab Republic",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tajikistan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Thailand",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "The former Yugoslav republic of Macedonia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Timor-Leste",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Togo",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tonga",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Trinidad and Tobago",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Tunisia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.6"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Turkey",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Turkmenistan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Uganda",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Ukraine",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "3.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United Arab Emirates",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United Kingdom of Great Britain and Northern Ireland",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United Republic of Tanzania",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "United States of America",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Uruguay",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Uzbekistan",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Vanuatu",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Venezuela (Bolivarian Republic of)",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "0.3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Viet Nam",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "1.0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Yemen",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Zambia",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.9"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Zimbabwe",
+                          "GHO": "Mortality rate attributed to unintentional poisoning (per 100 000 population)",
+                          "YEAR": "2015"
+                        },
+                "Value": "2.1"
+              }
+      ]
+}
