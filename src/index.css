@@ -3,3 +3,50 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+}
+
+.row:first-child {
+    width: 20%;
+}
+
+.row:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    border: 1px dotted black;
+}
+
+.map {
+    height: 50%;
+    width: 100%;
+    border: 1px dotted black;
+    resize: vertical;
+    overflow: auto;
+}
+
+.graph {
+    height: auto;
+    width: 100%;
+    height: 50%;
+    border: 1px dotted black;
+}

@@ -4,10 +4,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-    <div className="main">
-        <div className="logo">
-            LOGO
-        </div>
+    <div className="app">
         <App />
     </div>
     , document.getElementById('root')
