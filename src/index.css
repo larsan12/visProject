@@ -50,3 +50,7 @@ body {
     height: 50%;
     border: 1px dotted black;
 }
+
+select {
+    overflow: hidden;
+}
