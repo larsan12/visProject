@@ -6,23 +6,21 @@ import React, { Component } from 'react';
 
 class Select extends React.Component {
 
-    handleChange() {
+    handleChange(v) {
         let { onChange } = this.props;
         return function (event) {
-            onChange(event.target.value);
+            onChange(v);
         }
     }
 
     render() {
-        let { values, selected } = this.props;
+        let { values, selected, className } = this.props;
+        let arr = values.map(v => v);
         return (
-            <label className="list-diseases">
-                Select disease:
-                <select onChange={this.handleChange()} multiple="multiple">
-                    {values && values.length && values.map(v =>
-                        <option selected={selected == v}>{v}</option>)}
-                </select>
-            </label>
+            <div className={className ? className : "select"} onClick={this.handleChange()}>
+                {values && values.length && values.map(v =>
+                    <div onClick={this.handleChange(v)} className={(selected.length ? selected.indexOf(v) > -1 : selected == v) ? "selectedOption": "defaultOption"}>{v}</div>)}
+            </div>
         );
     }
 }
