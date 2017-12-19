@@ -43,6 +43,7 @@ body {
     border: 1px dotted black;
     resize: vertical;
     overflow: auto;
+    position: relative;
 }
 
 .graph {
