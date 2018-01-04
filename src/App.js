@@ -28,7 +28,10 @@ class App extends Component {
         selectedCountries: [],
         selectedYear: "",
         data: {},
-        selectedDisease: ""
+        dataSelected: "",
+        selectedDiseases: [],
+        years: [],
+        countries: []
     }
 
     //before all actions
@@ -39,11 +42,20 @@ class App extends Component {
         //delete empty jsons
         Object.keys(diseases).forEach((key) => (diseases[key] == null || diseases[key] == undefined) && delete diseases[key]);
 
+        //SELECT DEFAULT DATA
+        //countries
+        let a = diseases[Object.keys(diseases)[0]];
+        let b = a[Object.keys(diseases[Object.keys(diseases)[0]])[0]];
+        let countries = Object.keys(b);
+
         //set selected desease
         this.setState({
             ...this.state,
-            selectedDisease: Object.keys(diseases)[0],
+            selectedDiseases: [Object.keys(diseases)[0]],
             selectedYear: Object.keys(diseases[Object.keys(diseases)[0]])[0],
+            dataSelected: diseases[Object.keys(diseases)[0]],
+            years: Object.keys(diseases[Object.keys(diseases)[0]]),
+            countries: countries,
             data: diseases
         });
     }
@@ -68,8 +80,68 @@ class App extends Component {
         })
     }
 
+    intersec = (arr1, arr2) => {
+        let newArr = [];
+        arr1.forEach(a => {
+            if (arr2.indexOf(a) > -1) {
+                newArr.push(a)
+            }
+        })
+        return newArr;
+    }
+    intersecAll = (arr) => {
+        if (arr.length) {
+            let newArr = arr[0];
+            if (arr.length > 1) {
+                for (let i = 1; i < arr.length; i++) {
+                    newArr = this.intersec(newArr.slice(), arr[i]);
+                }
+            }
+            return newArr;
+        }
+        return [];
+    }
+
     onChangeDisease = (value) => {
         if (!value) return;
+        const { data, selectedDiseases, selectedYear, selectedCountries } = this.state;
+        let newSelectedDiseases = selectedDiseases.slice();
+
+        if (selectedDiseases.indexOf(value) > -1) {
+            if (newSelectedDiseases.length > 1) {
+                newSelectedDiseases.remove(value);
+            }
+        } else {
+            newSelectedDiseases.push(value);
+        }
+
+        let arrYears = [];
+        let arrCountryes = [];
+
+        newSelectedDiseases.forEach(d => {
+            arrYears.push(Object.keys(data[d]));
+            arrCountryes.push(Object.keys(data[d][Object.keys(data[d])[0]]))
+        })
+
+        let newYears = this.intersecAll(arrYears);
+        let newCountries = this.intersecAll(arrCountryes);
+
+        let newSelectedYear = selectedYear;
+
+        if (newYears.indexOf(selectedYear) === -1) {
+            newSelectedYear = newYears[0];
+        }
+
+        let newSelectedCountries = this.intersec(newCountries, selectedCountries.slice());
+
+        this.setState({
+            ...this.state,
+            selectedDiseases: newSelectedDiseases,
+            selectedYear: newSelectedYear,
+            selectedCountries: newSelectedCountries,
+            years: newYears,
+            countries: newCountries
+        })
     }
 
     onChangeCountries = (value) => {
@@ -89,7 +161,7 @@ class App extends Component {
     }
 
     render() {
-        const { data, selectedDisease, selectedYear, selectedCountries } = this.state;
+        const { data, selectedDiseases, selectedYear, selectedCountries, years, countries } = this.state;
         let diseases = Object.keys(data);
 
         return (
@@ -100,8 +172,10 @@ class App extends Component {
                         onChangeDisease={this.onChangeDisease}
                         onChangeYear={this.onChangeYear}
                         onChangeCountries={this.onChangeCountries}
-                        selectedDisease={selectedDisease}
-                        data={data[selectedDisease]}
+                        selectedDiseases={selectedDiseases}
+                        data={data}
+                        countries={countries}
+                        years={years}
                         selectedYear={selectedYear}
                         selectedCountries={selectedCountries}
                     />
