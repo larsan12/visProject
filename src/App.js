@@ -182,7 +182,12 @@ class App extends Component {
                 </div>
                 <div className="row">
                     <Map />
-                    <Graph />
+                    <Graph
+                        selectedDiseases={selectedDiseases}
+                        data={data}
+                        selectedYear={selectedYear}
+                        selectedCountries={selectedCountries}
+                    />
                 </div>
             </div>
         );
