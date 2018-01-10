@@ -89,6 +89,15 @@ class Graph extends Component {
         return (
             <div className="graph">
                 <div className="left">
+                  <BarGroupChart
+                      data= {dataParsed}
+                      chartSeries = {chartSeries}
+                      x= {this.x}
+                      xScale= {"ordinal"}
+                      yTickFormat= {this.yTickFormat}
+                  />
+                </div>
+                <div className="right">
                     <PieChart
                         title= {this.titlePie}
                         data= {pieData}
@@ -105,15 +114,6 @@ class Graph extends Component {
                         radius= {this.radius}
                         margins= {this.margins}
                       />
-                </div>
-                <div className="right">
-                    <BarGroupChart
-                        data= {dataParsed}
-                        chartSeries = {chartSeries}
-                        x= {this.x}
-                        xScale= {"ordinal"}
-                        yTickFormat= {this.yTickFormat}
-                    />
                 </div>
             </div>
         );

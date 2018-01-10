@@ -35,7 +35,7 @@ class List extends Component {
                     />
                 </div>
                 <div className="list-years">
-                    Select disease:
+                    Select year:
                     <Select
                         values={years}
                         onChange={onChangeYear}

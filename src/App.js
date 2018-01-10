@@ -31,14 +31,17 @@ class App extends Component {
         dataSelected: "",
         selectedDiseases: [],
         years: [],
-        countries: []
+        countries: [],
+        population: {}
     }
 
     //before all actions
     componentWillMount() {
         //Download data
         let diseases = {};
-        this.diseases.forEach(d => diseases[d] = this.dowloadResurs(d));
+        this.diseases.forEach(d => diseases[d] = this.dowloadResource(d));
+        let population = this.dowloadResource("population", ".csv");
+        debugger;
         //delete empty jsons
         Object.keys(diseases).forEach((key) => (diseases[key] == null || diseases[key] == undefined) && delete diseases[key]);
 
@@ -61,10 +64,10 @@ class App extends Component {
     }
 
     //dowload json data
-    dowloadResurs = (file) => {
+    dowloadResource = (file, format) => {
         let data;
         try {
-            data = require("../prepared_data/" + file + ".json");
+            data = require("../prepared_data/" + file + (format ? format : ".json"));
         } catch(err) {
             return undefined;
         }
