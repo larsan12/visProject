@@ -17,7 +17,7 @@ class List extends Component {
         return (
             <div className="list">
                 <div className="list-diseases">
-                    Select disease:
+                    <span className="list-title"> Select disease </span>
                     <Select
                         values={diseases}
                         onChange={onChangeDisease}
@@ -26,7 +26,7 @@ class List extends Component {
                     />
                 </div>
                 <div className="list-countryes">
-                    Select countryes:
+                    <span className="list-title"> Select countryes </span>
                     <Select
                         values={countries}
                         onChange={onChangeCountries}
@@ -35,7 +35,7 @@ class List extends Component {
                     />
                 </div>
                 <div className="list-years">
-                    Select year:
+                    <span className="list-title"> Select year </span>
                     <Select
                         values={years}
                         onChange={onChangeYear}

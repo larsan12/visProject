@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Map from "./Map";
 import List from "./List";
 import Graph from "./Graph";
+let Datamap = require('datamaps');
+
 
 
 Array.prototype.remove = function(value) {
@@ -16,7 +18,7 @@ Array.prototype.remove = function(value) {
 
 class App extends Component {
 
-    //from folder ./prepared_data
+    //diseases from folder ./prepared_data
 
     diseases = [
         "TB mortality by country",
@@ -32,7 +34,8 @@ class App extends Component {
         selectedDiseases: [],
         years: [],
         countries: [],
-        population: {}
+        population: {},
+        mapCountries: {}
     }
 
     //before all actions
@@ -40,8 +43,7 @@ class App extends Component {
         //Download data
         let diseases = {};
         this.diseases.forEach(d => diseases[d] = this.dowloadResource(d));
-        let population = this.dowloadResource("population", ".csv");
-        debugger;
+        let population = this.dowloadResource("population");
         //delete empty jsons
         Object.keys(diseases).forEach((key) => (diseases[key] == null || diseases[key] == undefined) && delete diseases[key]);
 
@@ -51,6 +53,14 @@ class App extends Component {
         let b = a[Object.keys(diseases[Object.keys(diseases)[0]])[0]];
         let countries = Object.keys(b);
 
+        let mapCountries = {}
+        var c = Datamap.prototype.worldTopo.objects.world.geometries;
+        c.forEach(i => {
+            if (i.id != -99) {
+                mapCountries[i.properties.name] = i.id
+            }
+        })
+
         //set selected desease
         this.setState({
             ...this.state,
@@ -59,8 +69,13 @@ class App extends Component {
             dataSelected: diseases[Object.keys(diseases)[0]],
             years: Object.keys(diseases[Object.keys(diseases)[0]]),
             countries: countries,
-            data: diseases
+            data: diseases,
+            population: population,
+            mapCountries: mapCountries
+        }, () => {
+            this.onChangeDisease(Object.keys(diseases)[0])
         });
+
     }
 
     //dowload json data
@@ -107,7 +122,8 @@ class App extends Component {
 
     onChangeDisease = (value) => {
         if (!value) return;
-        const { data, selectedDiseases, selectedYear, selectedCountries } = this.state;
+        const { data, selectedDiseases, selectedYear, selectedCountries, mapCountries } = this.state;
+
         let newSelectedDiseases = selectedDiseases.slice();
 
         if (selectedDiseases.indexOf(value) > -1) {
@@ -128,6 +144,9 @@ class App extends Component {
 
         let newYears = this.intersecAll(arrYears);
         let newCountries = this.intersecAll(arrCountryes);
+
+        //filter countries according to map data
+        newCountries = newCountries.filter(c => Object.keys(mapCountries).indexOf(c) > -1 ? true : false)
 
         let newSelectedYear = selectedYear;
 
@@ -164,7 +183,7 @@ class App extends Component {
     }
 
     render() {
-        const { data, selectedDiseases, selectedYear, selectedCountries, years, countries } = this.state;
+        const { data, selectedDiseases, selectedYear, selectedCountries, mapCountries, years, countries } = this.state;
         let diseases = Object.keys(data);
 
         return (
@@ -184,7 +203,12 @@ class App extends Component {
                     />
                 </div>
                 <div className="row">
-                    <Map />
+                    <Map
+                        countries={countries}
+                        selectedCountries={Object.assign([],selectedCountries)}
+                        mapCountries={mapCountries}
+                        onChangeCountries={this.onChangeCountries}
+                    />
                     <Graph
                         selectedDiseases={selectedDiseases}
                         data={data}
