@@ -23,7 +23,11 @@ class App extends Component {
     diseases = [
         "TB mortality by country",
         "Suspected meningitis mortality by country",
-        "Malaria mortality by country"
+        "Malaria mortality by country",
+        "Road traffic mortality by country",
+        "HIV mortality by country",
+        "Cholera mortality by country",
+        "Air pollution mortality by country"
     ];
 
     state = {
