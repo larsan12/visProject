@@ -99,41 +99,52 @@ class Graph extends Component {
     margins = {top: 50, right: 50, bottom: 20, left: 50};
     outerRadius = this.radius - 10;
     innerRadius = 0;
+    minWidth = 600;
+    minHeight = 300;
 
     render() {
         const { dataParsed, chartSeries, pieData, size } = this.state;
 
-        let width = Math.ceil(size.w * 0.45);
-        let height = width;//Math.ceil(size.w * 0.90);
+        let width = Math.ceil(size.w * 0.49);
+        let height = size.h * 0.5;
+
+        width = Math.max(width, this.minWidth);
+        height = Math.max(height, this.minHeight);
+
         let margins = {
             top: Math.ceil()
         }
         return (
             <div className="graph">
-                <BarGroupChart
-                    data= {dataParsed}
-                    chartSeries = {chartSeries}
-                    x= {this.x}
-                    xScale= {"ordinal"}
-                    yTickFormat= {this.yTickFormat}
-                    width={width}
-                    height={height}
-                />
-                <PieChart
-                    title= {this.titlePie}
-                    data= {pieData}
-                    chartSeries= {chartSeries}
-                    categoricalColors= {d3.scale.category10()}
-                    showLegend= {true}
-                    value = {this.value}
-                    name = {this.name}
-                    pieSort = {d3.descending}
-                    width={width}
-                    height={height}
-                    outerRadius= {this.outerRadius}
-                    innerRadius= {this.innerRadius}
-                    margins= {this.margins}
-                />
+                <div className="bar1">
+                    <BarGroupChart
+                        data= {dataParsed}
+                        chartSeries = {chartSeries}
+                        x= {this.x}
+                        xScale= {"ordinal"}
+                        yTickFormat= {this.yTickFormat}
+                        width={width}
+                        height={height}
+                    />
+                </div>
+                <div className="pie1">
+                    <PieChart
+                        title={this.titlePie}
+                        data={pieData}
+                        chartSeries={chartSeries}
+                        categoricalColors={d3.scale.category10()}
+                        showLegend={true}
+                        value={this.value}
+                        name={this.name}
+                        pieSort={d3.descending}
+                        width={width}
+                        height={height}
+                        outerRadius={this.outerRadius}
+                        innerRadius={this.innerRadius}
+                        margins={this.margins}
+                        svgClassName={"pie"}
+                    />
+                </div>
             </div>
         );
     }

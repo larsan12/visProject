@@ -183,7 +183,7 @@ class App extends Component {
     }
 
     render() {
-        const { data, selectedDiseases, selectedYear, selectedCountries, mapCountries, years, countries } = this.state;
+        const { data, population, selectedDiseases, selectedYear, selectedCountries, mapCountries, years, countries } = this.state;
         let diseases = Object.keys(data);
 
         return (
@@ -206,8 +206,12 @@ class App extends Component {
                     <Map
                         countries={countries}
                         selectedCountries={Object.assign([],selectedCountries)}
+                        data={data}
+                        selectedDiseases={selectedDiseases}
+                        selectedYear={selectedYear}
                         mapCountries={mapCountries}
                         onChangeCountries={this.onChangeCountries}
+                        population={population}
                     />
                     <Graph
                         selectedDiseases={selectedDiseases}

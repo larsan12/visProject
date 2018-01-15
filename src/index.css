@@ -78,6 +78,12 @@ body {
 
 .list-years {
     height: 30%;
+
+}
+
+.list-years, .list-diseases, .list-countryes {
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
 }
 
 .selectedOption {
@@ -91,7 +97,8 @@ body {
 
 .selectDisease, .selectCountryes, .selectYears{
     overflow-y: scroll;
-    height: calc(100% - 20px)
+    height: calc(100% - 20px);
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 div::-webkit-scrollbar-track
@@ -113,4 +120,50 @@ div::-webkit-scrollbar-thumb
 	background-color: rgba(255, 0, 0, .2);
     opacity: 0.7;
     border-radius: 10px;
+}
+
+.pie g text {
+    visibility: hidden;
+}
+
+.titleMap {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleMap .title {
+    font-weight: bold;
+}
+
+.titleMap .lable1 {
+
+}
+
+.titleMap .lable1 .color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.titleMap .lable1 .red {
+    background-color: red;
+}
+
+.titleMap .lable1 .green {
+    background-color: rgb(171, 221, 164);
+}
+
+.titleMap .lable1 .gray {
+    background-color: rgb(220, 220, 220);
+}
+
+.graph .pie1, .graph .bar1 {
+    height: 100%;
+    position: relative;
+    resize: vertical;
+    overflow: auto;
+    position: relative;
 }
