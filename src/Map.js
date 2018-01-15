@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as d3 from "d3";
 
 //TEST EXAMPLE
 
@@ -42,19 +43,38 @@ class Map extends Component {
         window.Map = Map
     }
 
-    colorSelected = 'rgba(255, 0, 0, .2)';
+    colorLow = '#ff9d9d';
+    colorHight = '#ff0000';
     colorDefault = 'rgb(220, 220, 220)';
     colorActive = 'rgb(171, 221, 164)';
 
     shouldComponentUpdate(nextProps, nextState) {
-        let { countries, selectedCountries, mapCountries } = nextProps;
-        let { countries: allC, selectedCountries: selC } = this.props;
+        let { countries, selectedCountries, mapCountries, data, selectedYear, population, selectedDiseases } = nextProps;
+        let { countries: allC, selectedCountries: selC, selectedYear: selectedYear1 } = this.props;
 
-        if (!this.arraysEqual(countries, allC) || !this.arraysEqual(selC, selectedCountries)) {
+        if (!this.arraysEqual(countries, allC) ||
+            !this.arraysEqual(selC, selectedCountries) ||
+            selectedYear != selectedYear1 ){
+
             let Map = window.Map;
 
             let colors = {};
-            selectedCountries.forEach(c => colors[mapCountries[c]] = this.colorSelected)
+            let selectedIndeces = {}
+            selectedCountries.forEach(c => {
+                let allDeads = 0;
+                selectedDiseases.forEach(d => {
+                    allDeads = allDeads + (data[d][selectedYear][c] ? parseInt(data[d][selectedYear][c]) : 0);
+                })
+                selectedIndeces[c] = allDeads/population[c][selectedYear]
+            })
+
+            var paletteScale = d3.scale.linear()
+                .domain([d3.min(d3.values(selectedIndeces)),d3.max(d3.values(selectedIndeces))])
+                .range([this.colorLow, this.colorHight]);
+
+            selectedCountries.forEach(c => {
+                colors[mapCountries[c]] = paletteScale(selectedIndeces[c])
+            })
 
             countries.forEach(c => {
                 if (!colors[mapCountries[c]]) {
@@ -81,7 +101,12 @@ class Map extends Component {
     render() {
         return (
             <div id="map" className="map">
-
+                <div className="titleMap">
+                    <span className="title"> Total mortality </span>
+                    <span className="lable1"> <span className="color green"></span> - data exist </span>
+                    <span className="lable1"> <span className="color gray"></span> - no data </span>
+                    <span className="lable1"> <span className="color red"></span> - selected </span>
+                </div>
             </div>
         );
     }
