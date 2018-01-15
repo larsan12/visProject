@@ -38,7 +38,9 @@ class Graph extends Component {
     }
 
     parseData = (nextProps) => {
-        const { data, selectedDiseases, selectedYear, selectedCountries } = nextProps;
+        const { data, selectedDiseases, selectedYear, selectedCountries, population } = nextProps;
+        const { absolute } = this.state;
+
         let dataParsed = [];
         let aggregator = {};
         selectedDiseases.forEach(d => {
@@ -55,10 +57,15 @@ class Graph extends Component {
             selectedDiseases.forEach(d => {
                 obj[d] = data[d][selectedYear][c] ? data[d][selectedYear][c] : 0;
                 let count = 0;
+
                 try {
                     count = parseInt(obj[d]);
                 } catch(err) {}
                 aggregator[d].count = aggregator[d].count + count;
+
+                if (!absolute) {
+                    obj[d] = obj[d] / population[c][selectedYear];
+                }
             });
             dataParsed.push(obj)
         })
@@ -103,8 +110,21 @@ class Graph extends Component {
     minWidth = 600;
     minHeight = 300;
 
+    changeOption = (val) => {
+        return () => {
+            let { absolute } = this.state;
+            if (absolute != val) {
+                this.setState({
+                    ...this.state,
+                    absolute: val
+                }, () => this.parseData(this.props))
+            }
+        }
+    }
+
     render() {
         const { dataParsed, chartSeries, pieData, size, absolute } = this.state;
+        const { selectedDiseases } = this.props;
 
         let width = Math.ceil(size.w * 0.49);
         let height = size.h * 0.5;
@@ -120,7 +140,7 @@ class Graph extends Component {
                 <div className="bar1">
                     <div className="label">
                         <div className={absolute ? "selected" : "none"} onClick={this.changeOption(true)}> Absolute </div>
-                        <div className={!absolute ? "selected" : "none"} onClick={this.changeOption(true)}> Proportion </div>
+                        <div className={!absolute ? "selected" : "none"} onClick={this.changeOption(false)}> Proportion </div>
                     </div>
                     <BarGroupChart
                         data= {dataParsed}
@@ -133,7 +153,7 @@ class Graph extends Component {
                     />
                 </div>
                 <div className="pie1">
-                    <PieChart
+                    { selectedDiseases.length > 1 ? <PieChart
                         title={this.titlePie}
                         data={pieData}
                         chartSeries={chartSeries}
@@ -148,7 +168,7 @@ class Graph extends Component {
                         innerRadius={this.innerRadius}
                         margins={this.margins}
                         svgClassName={"pie"}
-                    />
+                    /> : <span className="message">Select at least couple diseases to see aggregation info</span>}
                 </div>
             </div>
         );

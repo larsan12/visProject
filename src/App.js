@@ -24,7 +24,6 @@ class App extends Component {
         "TB",
         "Suspected meningitis",
         "Malaria",
-        "Road traffic",
         "HIV",
         "Cholera",
         "Air pollution"
@@ -222,6 +221,7 @@ class App extends Component {
                         data={data}
                         selectedYear={selectedYear}
                         selectedCountries={selectedCountries}
+                        population={population}
                     />
                 </div>
             </div>

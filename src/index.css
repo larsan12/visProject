@@ -69,15 +69,15 @@ body {
 }
 
 .list-countryes {
-    height: 50%;
+    height: 48%;
 }
 
 .list-diseases {
-    height: 20%;
+    height: 19%;
 }
 
 .list-years {
-    height: 30%;
+    height: 29%;
 
 }
 
@@ -183,4 +183,8 @@ div::-webkit-scrollbar-thumb
 }
 
 .label .none {
+}
+
+.pie1 .message {
+    margin: 10px;
 }
