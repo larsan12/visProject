@@ -21,13 +21,13 @@ class App extends Component {
     //diseases from folder ./prepared_data
 
     diseases = [
-        "TB mortality by country",
-        "Suspected meningitis mortality by country",
-        "Malaria mortality by country",
-        "Road traffic mortality by country",
-        "HIV mortality by country",
-        "Cholera mortality by country",
-        "Air pollution mortality by country"
+        "TB",
+        "Suspected meningitis",
+        "Malaria",
+        "Road traffic",
+        "HIV",
+        "Cholera",
+        "Air pollution"
     ];
 
     state = {
