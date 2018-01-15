@@ -167,3 +167,20 @@ div::-webkit-scrollbar-thumb
     overflow: auto;
     position: relative;
 }
+
+.label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.label div {
+    cursor: pointer;
+}
+
+.label .selected {
+    background-color: rgba(255, 0, 0, .5);
+}
+
+.label .none {
+}

@@ -11,7 +11,8 @@ class Graph extends Component {
     state = {
         dataParsed: [],
         chartSeries: [],
-        size: { size: { w: 0, h: 0 } }
+        size: { size: { w: 0, h: 0 } },
+        absolute: true
     }
 
     fitToParentSize() {
@@ -103,7 +104,7 @@ class Graph extends Component {
     minHeight = 300;
 
     render() {
-        const { dataParsed, chartSeries, pieData, size } = this.state;
+        const { dataParsed, chartSeries, pieData, size, absolute } = this.state;
 
         let width = Math.ceil(size.w * 0.49);
         let height = size.h * 0.5;
@@ -117,6 +118,10 @@ class Graph extends Component {
         return (
             <div className="graph">
                 <div className="bar1">
+                    <div className="label">
+                        <div className={absolute ? "selected" : "none"} onClick={this.changeOption(true)}> Absolute </div>
+                        <div className={!absolute ? "selected" : "none"} onClick={this.changeOption(true)}> Proportion </div>
+                    </div>
                     <BarGroupChart
                         data= {dataParsed}
                         chartSeries = {chartSeries}
